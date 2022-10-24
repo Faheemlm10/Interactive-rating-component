@@ -1,0 +1,49 @@
+.container {
+  background-color: var(--Dark-Blue);
+  padding: 1.7rem;
+  border-radius: 1.3rem;
+}
+
+.thank-you {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thank-you h2 {
+  margin-top: 2rem;
+  color: var(--White);
+  margin-bottom: 0.5rem;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.final-message p {
+  color: var(--Medium-Grey);
+  font-size: 15px;
+  line-height: 1.32rem;
+  padding: 0 0.7rem;
+}
+
+.message {
+  background-color: hsla(216, 12%, 54%, 0.25);
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  border-radius: 2rem;
+  color: var(--Orange);
+  font-size: 13px;
+  padding: 0.3rem 0;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem 0.5rem;
+  }
+  .final-message p {
+    font-size: 13px;
+  }
+}

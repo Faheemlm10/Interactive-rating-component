@@ -1,0 +1,21 @@
+.rating-btn {
+  border-radius: 50%;
+  height: 2.7rem;
+  width: 2.7rem;
+  border-color: transparent;
+  background-color: hsla(216, 12%, 54%, 0.25);
+  color: var(--Light-Grey);
+  font-size: 13px;
+  transition: all ease-in-out;
+  transition-duration: 0.2s;
+}
+
+button {
+  cursor: pointer;
+}
+
+.rating-btn:hover {
+  background-color: var(--Light-Grey);
+  color: white;
+  font-size: 15px;
+}
